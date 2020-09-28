@@ -1,0 +1,18 @@
+# theme.yaml configuration file
+
+name: hugo-chart
+license: GPLv3
+licenselink: https://github.com/Shen-Yu/hugo-chart/blob/master/LICENSE
+description: a Chart.js component for Hugo.
+homepage: https://github.com/Shen-Yu/hugo-chart
+tags:
+  - component
+  - chartjs
+  - chart
+features:
+  - nicely display charts
+min_version: 0.1.0
+
+author:
+  name: Eric Shen
+  homepage: https://github.com/Shen-Yu
