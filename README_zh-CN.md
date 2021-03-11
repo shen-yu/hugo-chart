@@ -29,7 +29,7 @@
 
     |  名称   | 类型  | 默认  | 描述  |
     |  ----  | ----  | ----  | ----  |
-    | width  | decimal | 100% | 图表宽度，默认是响应式的  |
+    | width  | number | 100 | 图表宽度，默认是响应式的（%）  |
     | height  | number | 300 | 图表高度（px） |
     
 4. 注意 Chartjs 默认是响应式的, 为了使自定义宽高生效, 你需要先把 `maintainAspectRatio` 选项设置成  `false` 。
@@ -37,7 +37,7 @@
 ## 例子
 
 ```go
-{{< chart 100 300 >}}
+{{< chart 90 200 >}}
 {
     type: 'bar',
     data: {

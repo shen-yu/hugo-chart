@@ -31,7 +31,7 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 
     |  Name   | Type  | Default  | Description  |
     |  ----  | ----  | ----  | ----  |
-    | width  | decimal | 100% | The width of chart, responsive in window.  |
+    | width  | number | 100 | The width of chart, responsive in window (%).  |
     | height  | number | 300 | The height of chart (px). |
     
 4. Note that Chartjs is responsive as default, in order for the above code to correctly resize the chart height, the `maintainAspectRatio` option must be set to `false`.
@@ -39,7 +39,7 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 ## Example
 
 ```go
-{{< chart [width] [height] >}}
+{{< chart 90 200 >}}
 {
     type: 'bar',
     data: {
