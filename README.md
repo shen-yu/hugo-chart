@@ -87,3 +87,5 @@ This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme componen
 ## License
 
 [hugo-chart](https://github.com/Shen-Yu/hugo-chart) by [Eric Shen](https://github.com/Shen-Yu) is under [GPL v3](https://github.com/Shen-Yu/hugo-chart/blob/master/LICENSE) license.
+
+![visitors-count](https://visitor-badge.laobi.icu/badge?page_id=Shen-Yu.hugo-chart)
