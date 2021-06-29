@@ -4,8 +4,6 @@
 
 English | [中文说明](README_zh-CN.md)
 
-**please press the Star button if you like.**
-
 ## About
 
 This is not a standalone theme. It is a [Hugo](https://gohugo.io) theme component providing a shortcode: `chart` to display [Chart.js](https://www.chartjs.org/) in your Hugo site. 
