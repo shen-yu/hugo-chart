@@ -1,7 +1,8 @@
 {{ $w := default "100" (.Get 0) }}
 {{ $h := default "300" (.Get 1) }}
 {{ $r := ( .Inner | chomp) }}
-{{ $id := index (seq 999 | shuffle) 1 }}
+{{ $seed := "foo" }}
+{{ $id := delimit (shuffle (split (md5 $seed) "" )) "" }}
 
 <div style="width: {{ $w }}%;height: {{ $h }}px;margin: 0 auto">
     <canvas id="{{ $id }}"></canvas>
